@@ -12,16 +12,14 @@
 */
 
 
-@media (max-width: 360px) {
+@media (max-width: 365px) {
 
 
     .container {
         width: 300px;
         margin: auto;
         position: relative;
-
     }
-
 
     hr {
         display: none;
@@ -62,7 +60,9 @@
         object-fit: cover;
     }
 
-    .style {
+
+    /*     about    */
+    .h2 {
         font-family: Gilroy-Bold, sans-serif;
         font-size: 34px;
         line-height: 42px;
@@ -73,30 +73,85 @@
         top: 0;
         left: -30px;
         width: 360px;
-        height: 600px;
         margin-top: 85px;
-        background: #F6F6F6;
+        background: #eae9e9;
         background-size: 50px 100px;
         text-align: center;
+        overflow: hidden;
+
     }
 
     .colour h2 {
-        padding-top: 80px;
+        margin-top: 80px;
     }
 
     .about-me {
         width: 300px;
-        height: 460px;
         margin: auto;
         padding: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         font-family: Gilroy-Medium, sans-serif;
         font-size: 18px;
         line-height: 22px;
         color: #000000;
     }
+
+    .about-me p {
+        margin-bottom: 82px;
+    }
+
+    /*    the end  about    */
+    /*
+
+    */
+    /*     mySkill    */
+    .mySkill {
+        text-align: center;
+    }
+
+    .mySkill h2 {
+        margin-top: 83px;
+    }
+
+    .mySkill p {
+        margin: 50px 0 71px 0;
+
+    }
+
+    .skills {
+        margin-bottom: 80px;
+    }
+
+
+    .img-skills {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 25px;
+    }
+
+    /*    the end mySkill    */
+    /*
+
+    */
+    /*      portfolio           */
+    .all-portfolio {
+        margin: 50px 0 70px 0;
+        /*overflow: hidden;*/
+
+    }
+
+    .portfolio {
+        width: 316px;
+        height: 170px;
+
+        background-color: #ffffff;
+        margin: 20px auto;
+    }
+
+
+    /*  the end    portfolio           */
+
 
 }
 
