@@ -43,7 +43,7 @@
         top: 8px;
     }
 
-    .menubox {
+    .menu-box {
         display: block;
         position: fixed;
         visibility: hidden;
@@ -96,7 +96,7 @@
         transform: rotate(90deg);
     }
 
-    #menu-toggle:checked ~ .menubox {
+    #menu-toggle:checked ~ .menu-box {
         visibility: visible;
         left: 0;
     }

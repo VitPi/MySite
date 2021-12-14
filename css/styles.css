@@ -3,17 +3,13 @@
 
 */
 
-* {
+*, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: Gilroy-Medium, sans-serif;
 
-}
-
-body {
-    height: 6000px;
 }
 
 .my-ava-img {

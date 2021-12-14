@@ -180,18 +180,44 @@
     }
 
 
-    .message{
-        background: #000000;
-        color: #ffffff;
-        border-radius: 50px;
-        width: 100%;
-        height: 42px;
-        margin-bottom: 50px;
-
-
+    .block {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url("../img/gmail.svg") no-repeat;
+        margin: 0 auto 50px auto;
+        background-size: 100%;
     }
 
-    /* the and   footer   */
+    .block1 {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url("../img/tel.svg") no-repeat;
+        margin: 0 auto 50px auto;
+        background-size: 100%;
+    }
+
+    .block2 {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url("../img/viber.svg") no-repeat;
+        margin: 0 auto 50px auto;
+        background-size: 100%;
+    }
+
+
+    .block3 {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: url("../img/telegram.svg") no-repeat;
+        margin: 0 auto 50px auto;
+        background-size: 100%;
+    }
+
+
 
 
 }
