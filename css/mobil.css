@@ -184,41 +184,28 @@
         width: 40px;
         height: 40px;
         display: block;
+        margin: 0 auto 50px auto;
+    }
+
+    .mail {
         background: url("../img/gmail.svg") no-repeat;
-        margin: 0 auto 50px auto;
         background-size: 100%;
     }
 
-    .block1 {
-        width: 40px;
-        height: 40px;
-        display: block;
+    .tel {
         background: url("../img/tel.svg") no-repeat;
-        margin: 0 auto 50px auto;
         background-size: 100%;
     }
 
-    .block2 {
-        width: 40px;
-        height: 40px;
-        display: block;
+    .viber {
         background: url("../img/viber.svg") no-repeat;
-        margin: 0 auto 50px auto;
         background-size: 100%;
     }
 
-
-    .block3 {
-        width: 40px;
-        height: 40px;
-        display: block;
+    .telegram {
         background: url("../img/telegram.svg") no-repeat;
-        margin: 0 auto 50px auto;
         background-size: 100%;
     }
-
-
-
 
 }
 
