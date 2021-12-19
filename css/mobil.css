@@ -165,9 +165,12 @@
 
     */
     /*   footer   */
+
+
+
     .contracts {
         text-align: center;
-        overflow: hidden;
+        margin-bottom: 70px;
     }
 
     .contracts:first-child {
@@ -205,6 +208,24 @@
     .telegram {
         background: url("../img/telegram.svg") no-repeat;
         background-size: 100%;
+    }
+
+    /*  =======    the end footer     */
+
+
+    .indicator {
+        position: fixed;
+        left: 30px;
+        bottom: 10px;
+    }
+
+    .indicator > a {
+        font-size: 3rem;
+        opacity: .5;
+    }
+
+    .indicator > a:visited {
+        color: #000000;
     }
 
 }

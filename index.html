@@ -15,7 +15,7 @@
 <body>
 
 
-<header class="container">
+<header class="container" id="home">
     <nav class="burger-menu">
         <input id="menu-toggle" type="checkbox"/>
         <label class="menu-btn" for="menu-toggle">
@@ -23,10 +23,10 @@
         </label>
 
         <ul class="menu-box">
-            <li><a class="menu-item" href="#">Home</a></li>
-            <li><a class="menu-item" href="#">About me</a></li>
-            <li><a class="menu-item" href="#">Skills</a></li>
-            <li><a class="menu-item" href="#">Portfolio</a></li>
+            <!--            <li><a class="menu-item" href="#">Home</a></li>-->
+            <li><a class="menu-item" href="#about">About me</a></li>
+            <li><a class="menu-item" href="#skills">Skills</a></li>
+            <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
             <li><a class="menu-item" href="#contact">Contacts</a></li>
         </ul>
     </nav>
@@ -47,7 +47,7 @@
 </header>
 
 
-<main class="container">
+<main class="container" id="about">
 
     <section class="colour">
         <h2 class="h2">About me</h2>
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section class="mySkill">
+    <section class="mySkill" id="skills">
 
         <h2 class="style">Skills</h2>
         <p>I use such technologies as</p>
@@ -144,7 +144,7 @@
     </section>
 
 
-    <section class="colour">
+    <section class="colour" id="portfolio">
         <h2 class="h2">Portfolio</h2>
 
         <div class="all-portfolio">
@@ -162,8 +162,7 @@
     <section class="contracts">
         <h2>Contacts</h2>
         <div class="phrases">
-            <p>Want to know more or just chat?</p>
-            <p>You are welcome!</p>
+            <p>Write or call me</p>
         </div>
 
         <a href="mailto:cpaaa@gmail.com" class="mail block"></a>
@@ -173,13 +172,19 @@
         <a href="viber://chat?number=%2B375292341201" class="viber block"></a>
 
         <a href="tg://resolve?domain=vitaliPilipcuk" class="telegram block"></a>
-
     </section>
+
+
+    <div class="indicator">
+        <a href="#home">&#11161;</a>
+    </div>
+
+
 </footer>
 
 
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="button/js/index.js"></script>
+<!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+<!--<script src="button/js/index.js"></script>-->
 
 
 <script src="javaScript/index.js"></script>
