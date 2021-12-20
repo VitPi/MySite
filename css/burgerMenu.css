@@ -7,7 +7,7 @@
 */
 
 
-@media (max-width: 365px) {
+@media (max-width: 481px) {
 
     /*===========burger-menu===========*/
     .menu-btn {
@@ -15,7 +15,7 @@
         align-items: center;
         position: absolute;
         top: 50px;
-        right: -10px;
+        right: 20px;
         width: 26px;
         height: 26px;
         cursor: pointer;
