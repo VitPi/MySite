@@ -12,23 +12,7 @@
 */
 
 
-@media (max-width: 481px) {
-
-    * {
-        font-size: 18px;
-
-    }
-
-
-    ::-webkit-scrollbar {
-        width: 3px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        /*border-radius: 70px;*/
-        background-color: #051c4b;
-    }
-
+@media all and (max-width: 481px) {
 
     h2 {
         font-family: Gilroy-Bold, sans-serif;
@@ -202,19 +186,6 @@
     .indicator > a {
         font-size: 3rem;
         opacity: .4;
-    }
-
-
-    .indicator > a:link {
-        color: #0455d0;
-    }
-
-    .indicator > a:visited {
-        color: #0455d0;
-    }
-
-    .indicator > a:active {
-        color: #0455d0;
     }
 
 

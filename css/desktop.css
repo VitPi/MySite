@@ -1,0 +1,215 @@
+/*
+
+
+
+
+
+*/
+
+
+@media (min-width: 481px) {
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+
+    }
+
+    header div {
+        margin: 40px 0 40px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .menu-box {
+        height: 10vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .menu-box li {
+        list-style: none;
+    }
+
+    .menu-box li a {
+        font-family: Gilroy-Bold, sans-serif;
+        color: #828282;
+    }
+
+    .menu-box li a:hover {
+        color: #000000;
+    }
+
+
+    .about {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about p {
+        margin: 5px;
+    }
+
+
+    .my-name {
+        width: 11rem;
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 2.5rem;
+        color: #000000;
+    }
+
+
+    .my-ava {
+        width: 80%;
+        margin: 0 auto 100px auto;
+        text-align: center;
+
+    }
+
+
+    .my-ava-img {
+        height: 350px;
+    }
+
+
+    /*
+  ===============   main  =====
+    */
+    .img-skills {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 25px;
+    }
+
+
+    .colour {
+        position: relative;
+        left: -5%;
+        width: 105%;
+        background: #eae9e9;
+        text-align: center;
+        overflow: hidden;
+        padding-top: 80px;
+    }
+
+    h2 {
+        font-family: Gilroy-Bold, sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .about-me {
+        padding: 1.7vh 2vh 12vh 10vh;
+        font-family: Gilroy-Medium, sans-serif;
+        line-height: 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #000000;
+    }
+
+    .about-me p {
+        width: 220px;
+        padding: 10px;
+    }
+
+
+    .mySkill {
+        text-align: center;
+        margin-top: 10vh;
+    }
+
+    .mySkill p {
+        margin: 5vh 0 7vh 0;
+    }
+
+    .mySkill div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .skills {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .all-portfolio {
+        width: 80%;
+        margin: 50px auto 70px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .portfolio {
+        width: 45%;
+        height: 170px;
+        background-color: #ffffff;
+        margin: 10px;
+    }
+
+
+    /*
+    +++++++++++++++++++++ footer +++++++++++++++++
+
+    */
+    footer {
+        margin: 10vh 0 10vh 0;
+    }
+
+
+    .phrases {
+        margin: 27px auto 40px auto;
+    }
+
+    .block {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin: 0 20px 0 20px;
+    }
+
+    .mail {
+        background: url("../img/gmail.svg") no-repeat;
+        background-size: 100%;
+    }
+
+    .tel {
+        background: url("../img/tel.svg") no-repeat;
+        background-size: 100%;
+    }
+
+    .viber {
+        background: url("../img/viber.svg") no-repeat;
+        background-size: 100%;
+    }
+
+    .telegram {
+        background: url("../img/telegram.svg") no-repeat;
+        background-size: 100%;
+    }
+
+
+    .indicator {
+        position: fixed;
+        left: 10%;
+        bottom: 10%;
+
+    }
+
+    .indicator > a {
+        font-size: 3rem;
+        opacity: .4;
+    }
+
+}
