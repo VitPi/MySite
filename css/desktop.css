@@ -90,11 +90,7 @@
 
 
     .colour {
-        position: relative;
-        left: -5%;
-        width: 105%;
         background: #eae9e9;
-        text-align: center;
         overflow: hidden;
         padding-top: 80px;
     }
@@ -111,7 +107,6 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        color: #000000;
     }
 
     .about-me p {
@@ -146,23 +141,23 @@
         width: 80%;
         margin: 50px auto 70px auto;
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+
     }
 
     .portfolio {
-        width: 45%;
-        height: 170px;
-        background-color: #ffffff;
-        margin: 10px;
+        width: 90%;
+        height: 70vh;
+        margin-bottom: 5vh;
     }
 
+    .food {
+        background: url("../img/food.png") no-repeat;
+        background-size: cover;
+    }
 
-    /*
-    +++++++++++++++++++++ footer +++++++++++++++++
-
-    */
+    /*+++++++++++++++++++++ footer +++++++++++++++++ */
     footer {
         margin: 10vh 0 10vh 0;
     }
