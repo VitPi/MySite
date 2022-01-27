@@ -133,8 +133,14 @@
         margin-bottom: 5vh;
     }
 
-    .food {
+
+    .one {
         background: url("../img/food.png") no-repeat;
+        background-size: cover;
+    }
+
+    .two {
+        background: url("../img/lomoda.png") no-repeat;
         background-size: cover;
     }
 
